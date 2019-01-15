@@ -1,0 +1,865 @@
+<!DOCTYPE html>
+<!--[if IE 9]><html class="ie ie9"> <![endif]-->
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="Robert">
+    <title>Junction Hotel - Comfort Redefined.</title>
+
+    <!-- Favicons-->
+    <link rel="shortcut icon" href="img/junction/logo-meta.png" type="image/x-icon">
+    <link rel="apple-touch-icon" type="image/x-icon" href="img/junction/logo-meta.png">
+    <link rel="apple-touch-icon" type="image/x-icon" sizes="72x72" href="img/junction/logo-meta.png">
+    <link rel="apple-touch-icon" type="image/x-icon" sizes="114x114" href="img/junction/logo-meta.png">
+    <link rel="apple-touch-icon" type="image/x-icon" sizes="144x144" href="img/junction/logo-meta.png">
+
+    <!-- GOOGLE FONT -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700,300" rel="stylesheet" type="text/css">
+		<link href="https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400,500,600,700,800,900" rel="stylesheet">
+
+    <!-- BASE CSS -->
+    <link href="css/animate.min.css" rel="stylesheet">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/menu.css" rel="stylesheet">
+    <link href="css/icon_fonts/css/all_icons.min.css" rel="stylesheet">
+
+    <!-- SPECIFIC CSS -->
+    <link href="css/morphext.css" rel="stylesheet">
+		<link href="css/magnific-popup.min.css" rel="stylesheet">
+    <link href="css/date_time_picker.css" rel="stylesheet">
+
+    <!-- YOUR CUSTOM CSS -->
+    <link href="css/custom.css" rel="stylesheet">
+
+    <!--[if lt IE 9]>
+      <script src="js/html5shiv.min.js"></script>
+      <script src="js/respond.min.js"></script>
+    <![endif]-->
+</head>
+
+<style>
+/*jssor slider loading skin spin css*/
+.jssorl-009-spin img {
+    animation-name: jssorl-009-spin;
+    animation-duration: 1.6s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+@keyframes jssorl-009-spin {
+    from { transform: rotate(0deg); }
+    to { transform: rotate(360deg); }
+}
+
+/*jssor slider bullet skin 053 css*/
+.jssorb053 .i {position:absolute;cursor:pointer;}
+.jssorb053 .i .b {fill:#fff;fill-opacity:0.5;}
+.jssorb053 .i:hover .b {fill-opacity:.7;}
+.jssorb053 .iav .b {fill-opacity: 1;}
+.jssorb053 .i.idn {opacity:.3;}
+
+/*jssor slider arrow skin 093 css*/
+.jssora093 {display:block;position:absolute;cursor:pointer;}
+.jssora093 .c {fill:none;stroke:#fff;stroke-width:400;stroke-miterlimit:10;}
+.jssora093 .a {fill:none;stroke:#fff;stroke-width:400;stroke-miterlimit:10;}
+.jssora093:hover {opacity:.8;}
+.jssora093.jssora093dn {opacity:.6;}
+.jssora093.jssora093ds {opacity:.3;pointer-events:none;}
+
+#section10 a {
+  padding-top: 60px;
+}
+#section10 a span {
+  position: absolute;
+  top: 80%;
+  left: 50%;
+  width: 40px;
+  height: 60px;
+  margin-left: -15px;
+  border: 2px solid #fff;
+  border-radius: 50px;
+  box-sizing: border-box;
+}
+#section10 a span::before {
+  position: absolute;
+  top: 10px;
+  left: 50%;
+  content: '';
+  width: 6px;
+  height: 6px;
+  margin-left: -3px;
+  background-color: #fff;
+  border-radius: 100%;
+  -webkit-animation: sdb10 2s infinite;
+  animation: sdb10 2s infinite;
+  box-sizing: border-box;
+}
+@-webkit-keyframes sdb10 {
+  0% {
+    -webkit-transform: translate(0, 0);
+    opacity: 0;
+  }
+  40% {
+    opacity: 1;
+  }
+  80% {
+    -webkit-transform: translate(0, 20px);
+    opacity: 0;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+@keyframes sdb10 {
+  0% {
+    transform: translate(0, 0);
+    opacity: 0;
+  }
+  40% {
+    opacity: 1;
+  }
+  80% {
+    transform: translate(0, 20px);
+    opacity: 0;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+.nav-top-padding {
+  padding-top: 10px!important;
+}
+
+</style>
+
+<body>
+
+    <!--[if lte IE 8]>
+        <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a>.</p>
+    <![endif]-->
+
+    <div class="layer"></div>
+    <!-- Menu mask -->
+
+    <!-- Header ================================================== -->
+    <header>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col--md-4 col-sm-3 col-xs-4">
+                    <div id="logo_home">
+                        <h1><a href="index.html" title="The Junction Hotels">The Junction</a></h1>
+                    </div>
+                </div>
+                 <nav class="col--md-8 col-sm-9 col-xs-8">
+                    <ul id="primary_nav">
+                        <li id="">
+                            <div class="hidden-xs hidden-sm">
+                                <a class="button_3" data-toggle="modal" data-target="#myModalHorizontal">Book Now <i class="icon-search"></i></a>
+                            </div>
+                        </li>
+                    </ul>
+                    <a class="cmn-toggle-switch cmn-toggle-switch__htx open_close" href="javascript:void(0);"><span>Menu mobile</span></a>
+                    <div class="main-menu">
+                        <div id="header_menu">
+                            <img src="img/junction/logo-trans.png" alt="img" data-retina="true" width="80" height="60">
+                        </div>
+                        <a href="#" class="open_close" id="close_in"><i class="icon_close"></i></a>
+                        <ul class="nav-top-padding">
+                          <li> <a href="#">HOME</a> </li>
+                          <li> <a href="#">ROOMS</a> </li>
+                          <li> <a href="#">ABOUT US</a> </li>
+                          <li> <a href="#">CONTACT US</a> </li>
+														<!-- <li><a href="submit.html" class="button_2">List your place</a></li> -->
+                        </ul>
+                    </div>
+                    <!-- End main-menu -->
+                </nav>
+            </div>
+            <!-- End row -->
+        </div>
+        <!-- End container -->
+    </header>
+    <!-- End Header =============================================== -->
+
+
+    <!-- SubHeader =============================================== -->
+    <section class="parallax_window_in" id="head_home" data-parallax="scroll" data-image-src="img/junction/image-01.jpg" data-natural-width="1000" data-natural-height="667">
+      <span id="section10" class="demo">
+        <a href="#sectn-2-home"><span></span></a>
+      </span>
+        <div style="padding: 0px;" id="sub_content_in">
+            <h1 style="text-transform:none">Enjoy <strong id="js-rotating" style="text-transform:uppercase">The most comfortable rooms, delicious meals from our restaurant, Simplicity and Elegance, Comfort redefined</strong></h1>
+            <p>"Plus a dedicated team to assist you in person when you arrive...."</p>
+
+            <!-- <img style="width:40px;" src="img/scroll.gif"> -->
+        </div>
+        <!-- End sub_content -->
+
+
+				<div id="search_bar" class="hidden-sm hidden-xs">
+						<form>
+								<div id="custom-search-input">
+									<div class="row">
+									<div class="col-md-10 col-sm-9">
+									<div class="row">
+										<div class="col-md-3 col-sm-3">
+											<div class="form-group">
+												<label>Room type?</label>
+                        <select class="form-control search-query">
+                          <option value="volvo">Single Standard</option>
+                          <option value="saab">Twin Rooms</option>
+                          <option value="opel">Deluxe</option>
+                          <option value="audi">Executive</option>
+                          <option value="audi">Apartments</option>
+                        </select>
+
+											</div>
+										</div>
+										<div class="col-md-3 col-sm-3">
+											<div class="form-group">
+												<label>From when?</label>
+												<input class="date-pick form-control search-query" data-date-format="M d, D" type="text" id="check_in" name="check_in" placeholder="Arrival">
+												<span class="input-icon-2"><i class="icon-calendar"></i></span>
+											</div>
+										</div>
+										<div class="col-md-3 col-sm-3">
+											<div class="form-group">
+												<label>Till when?</label>
+												<input class="date-pick form-control search-query" data-date-format="M d, D" type="text" id="check_out" name="check_out" placeholder="Departure">
+												<span class="input-icon-2"><i class="icon-calendar"></i></span>
+											</div>
+										</div>
+										<div class="col-md-3 col-sm-3">
+											<div class="row">
+												<div class="col-md-6 col-sm-5">
+													<div class="form-group">
+														<label>Adults?</label>
+															<div class="qty-buttons">
+																	<input type="button" value="-" class=" qtyminus" name="adults">
+																	<input type="text" name="adults" id="adults" value="" class="qty form-control" placeholder="0">
+																	<input type="button" value="+" class="qtyplus" name="adults">
+															</div>
+													</div>
+												</div>
+												<div class="col-md-6 col-sm-6">
+													<div class="form-group">
+														<label>Kids?</label>
+														<div class="qty-buttons">
+																<input type="button" value="-" class="qtyminus" name="children">
+																<input type="text" name="children" id="children" value="" class="qty form-control" placeholder="0">
+																<input type="button" value="+" class="qtyplus" name="children">
+														</div>
+													</div>
+
+												</div>
+											</div>
+										</div>
+									</div>
+									</div>
+									<div class="col-md-2 col-sm-2">
+											<div class="form-group">
+												<label style="opacity:0">check availability</label>
+												<input type="submit" class="form-control search-query button_2" value="check availability">
+											</div>
+									</div>
+									</div>
+								</div>
+						</form>
+				</div>
+				<!-- End search_bar -->
+    </section>
+    <!-- End section -->
+    <!-- End SubHeader ============================================ -->
+							<div class="hidden-md hidden-lg">
+								<div id="mobile_search">
+								<!-- Button trigger modal -->
+									<a class="btn btn-primary btn-lg button_2" data-toggle="modal" data-target="#myModalHorizontal">
+											Book Now
+									</a>
+									<!-- Modal -->
+									<div class="modal fade" id="myModalHorizontal" tabindex="-1" role="dialog"
+											 aria-labelledby="myModalLabel" aria-hidden="true">
+											<div class="modal-dialog">
+													<div class="modal-content">
+															<!-- Modal Header -->
+															<div class="modal-header">
+																	<button type="button" class="close"
+																		 data-dismiss="modal">
+																				 <span aria-hidden="true">&times;</span>
+																				 <span class="sr-only">Close</span>
+																	</button>
+																	<h4 class="modal-title" id="myModalLabel">
+																			Book Available Rooms
+																	</h4>
+															</div>
+
+															<!-- Modal Body -->
+															<div class="modal-body">
+																<form role="form">
+																	<div id="">
+																		<div class="form-group">
+																			<label>Room type?</label>
+                                      <select class="form-control search-query">
+                                        <option value="volvo">Single Standard</option>
+                                        <option value="saab">Twin Rooms</option>
+                                        <option value="opel">Deluxe</option>
+                                        <option value="audi">Executive</option>
+                                        <option value="audi">Apartments</option>
+                                      </select>
+																		</div>
+																		<div class="form-group">
+																			<label>From when?</label>
+																			<input class="date-pick form-control search-query" data-date-format="M d, D" type="text" id="check_in_m" name="check_in" placeholder="Arrival">
+																			<span class="input-icon-3"><i class="icon-calendar"></i></span>
+																		</div>
+																		<div class="form-group">
+																			<label>Till when?</label>
+																			<input class="date-pick form-control search-query" data-date-format="M d, D" type="text" id="check_out_m" name="check_out" placeholder="Departure">
+																			<span class="input-icon-3"><i class="icon-calendar"></i></span>
+																		</div>
+																		<div class="row">
+																			<div class="col-xs-6">
+																				<div class="form-group">
+																					<label>Adults?</label>
+																						<div class="qty-buttons">
+																								<input type="button" value="-" class=" qtyminus" name="adults">
+																								<input type="text" name="adults" id="adults" value="" class="qty form-control" placeholder="0">
+																								<input type="button" value="+" class="qtyplus" name="adults">
+																						</div>
+																				</div>
+																			</div>
+																			<div class="col-xs-6">
+																				<div class="form-group">
+																					<label>Kids?</label>
+																					<div class="qty-buttons">
+																							<input type="button" value="-" class="qtyminus" name="children">
+																							<input type="text" name="children" id="children" value="" class="qty form-control" placeholder="0">
+																							<input type="button" value="+" class="qtyplus" name="children">
+																					</div>
+																				</div>
+																			</div>
+																		</div>
+																	</div>
+																</form>
+															</div>
+															<!-- Modal Footer -->
+															<div class="modal-footer">
+																	<button type="button" class="btn btn-primary button_2">
+																			Check availability
+																	</button>
+															</div>
+													</div>
+											</div>
+									</div>
+								</div>
+							</div>
+		<section id="sectn-2-home" class="parallax_window_home bright">
+        <div class="container">
+            <div class="main_title">
+              <img style="width: 20%;" src="img/junction/logo-trans.png">
+              <br>
+              <br>
+              <br>
+                <h3>Welcome to<strong>The Junction Hotel and Suites</strong></h3>
+            </div>
+            <div class="row features add_bottom_45">
+                <div class="col-sm-12">
+                  <center>
+                    <h4 class="descrp-width">
+                      The Junction Hotel is set in the leafy town of Kisii.It is a place of.
+                      The Junction Hotel is set in the leafy town of Kisii.It is a place of.
+                      The Junction Hotel is set in the leafy town of Kisii.It is a place of.
+                      The Junction Hotel is set in the leafy town of Kisii.It is a place of.
+                    </h4>
+                  </center>
+                </div>
+                <!-- <div class="col-sm-4">
+                    <div id="feat_1">
+
+                        <h3>Book</h3>
+                        <p>
+                            Select what you like and reserve it instantly. <strong>Tailor your stay</strong> with extras to your taste.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div id="feat_3">
+
+                        <h3>Enjoy</h3>
+                        <p>
+														Relax. Enjoy. Have fun. We will welcome you in person and be there for you 24/7.
+                        </p>
+                    </div>
+                </div> -->
+            </div>
+        </div>
+        <!-- End row -->
+        <div class="text-center">
+            <a href="homes-grid.html" class="button_2">Explore Our Rooms</a>
+        </div>
+    </section>
+    <!-- End section -->
+
+		<div id="white">
+    <div class="container margin_60_30 fix_mobile">
+        <div class="main_title">
+            <h2>Our <strong>Facilities & Services<strong></h2>
+            <p>
+                Yearning for that <strong style="color:mediumseagreen">‘Home away from Home’</strong> feel on your next trip - in a place where you can lounge and entertain? The Junction is for you! We will be there with you every step of the way
+            </p>
+            <span><em></em></span>
+        </div>
+
+        <div class="row box_cat">
+            <div class="col-sm-6 col-md-4">
+                <a href="#0">
+                    <i class="icon_set_1_icon-35"></i>
+                    <h3>Accept credit cards</h3>
+                    <p>
+                        We accept credit card payments within our website and hotel
+                    </p>
+                </a>
+            </div>
+            <div class="col-sm-6 col-md-4">
+                <a href="#0">
+                    <i class="icon_set_1_icon-58"></i>
+                    <h3>Restaurant</h3>
+                    <p>
+                       We have a restaurant that serves a variety of finger licking dishes
+                    </p>
+                </a>
+            </div>
+            <div class="col-sm-6 col-md-4">
+                <a href="#0">
+                    <i class="icon_set_1_icon-14"></i>
+                    <h3>Room Service </h3>
+                    <p>
+                        We have room service available for each room
+                    </p>
+                </a>
+            </div>
+            <div class="col-sm-6 col-md-4">
+                <a href="#0">
+                    <i class="icon_set_1_icon-57"></i>
+                    <h3>Customer Care </h3>
+                    <p>
+                        We have agents ready to answer any queries that you might have
+                    </p>
+                </a>
+            </div>
+            <div class="col-sm-6 col-md-4">
+                <a href="#0">
+                    <i class="icon_set_1_icon-86"></i>
+                    <h3>Free Wi-Fi </h3>
+                    <p>
+                        We have free wifi avaiable in each room and the hotel premise
+                    </p>
+                </a>
+            </div>
+            <div class="col-sm-6 col-md-4">
+                <a href="#0">
+                    <i class="icon_set_1_icon-20"></i>
+                    <h3>Bar </h3>
+                    <p>
+                        We have a fully stocked bar that has a variety of drinks you can enjoy
+                    </p>
+                </a>
+            </div>
+        </div>
+        <!-- End row -->
+    </div>
+    <!-- End container -->
+		</div>
+    <div class="pattern_dots">
+        <div class="container margin_60_45">
+            <div class="main_title">
+                <h2><strong>Rooms</strong> You will fall in love with</h2>
+                <p>
+                    We have a variety of rooms available from single rooms, deluxe rooms, 2 bedroom apartments and many more.
+                </p>
+                <span><em></em></span>
+            </div>
+            <!-- End main_title -->
+
+						<h3 class="second_title">Featured rooms</h3>
+            <div class="row">
+                <div class="col-sm-6 col-md-4">
+                    <div class="img_wrapper_grid">
+                        <div class="ribbon top">
+                            <span>Top rated</span>
+                        </div>
+                        <!-- <div class="tools_i">
+                            <form action="http://maps.google.com/maps" method="get" target="_blank" class="directions_list">
+                                <input type="hidden" name="daddr" value="43.773460, 11.255985">
+                                <button type="submit" class="tooltip_styled tooltip-effect-4">
+                                    <span class="tooltip-item"></span>
+                                    <span class="tooltip-content">Directions</span>
+                                </button>
+                            </form>
+                        </div> -->
+                        <!-- End tools i-->
+                        <div class="img_container_grid">
+                            <a href="home-detail.html">
+                                <img src="img/junction/single-room.jpg" width="800" height="468" class="img-responsive" alt="">
+                                <div class="short_info_grid">
+                                    <small><strong>From kes 3,500</strong></small>
+                                    <h3>Single standard rooms</h3>
+                                    <em>Free Breakfast</em>
+                                    <p>
+                                        Read more
+                                    </p>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <!-- End img_wrapper_grid -->
+                </div>
+                <div class="col-sm-6 col-md-4">
+                    <div class="img_wrapper_grid">
+                        <div class="ribbon top">
+                            <span>Top rated</span>
+                        </div>
+                        <!-- <div class="tools_i">
+                            <form action="http://maps.google.com/maps" method="get" target="_blank" class="directions_list">
+                                <input type="hidden" name="daddr" value="43.773460, 11.255985">
+                                <button type="submit" class="tooltip_styled tooltip-effect-4">
+                                    <span class="tooltip-item"></span>
+                                    <span class="tooltip-content">Directions</span>
+                                </button>
+                            </form>
+                        </div> -->
+                        <!-- End tools i-->
+                        <div class="img_container_grid">
+                            <a href="florence-bar-detail.html">
+                                <img src="img/junction/double-room.jpg" width="800" height="468" class="img-responsive" alt="">
+                                <div class="short_info_grid">
+                                    <small><strong>From Kes 4,500</strong></small>
+                                    <h3>Double standard rooms</h3>
+                                    <em>Free Breakfast</em>
+                                    <p>
+                                        Read more
+                                    </p>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <!-- End img_wrapper_grid -->
+                </div>
+                <div class="col-sm-6 col-md-4">
+                    <div class="img_wrapper_grid">
+                        <div class="ribbon top">
+                            <span>Top rated</span>
+                        </div>
+                        <!-- <div class="tools_i">
+                            <form action="http://maps.google.com/maps" method="get" target="_blank" class="directions_list">
+                                <input type="hidden" name="daddr" value="43.773460, 11.255985">
+                                <button type="submit" class="tooltip_styled tooltip-effect-4">
+                                    <span class="tooltip-item"></span>
+                                    <span class="tooltip-content">Directions</span>
+                                </button>
+                            </form>
+                        </div> -->
+                        <!-- End tools i-->
+                        <div class="img_container_grid">
+                            <a href="florence-shop-detail.html">
+                                <img src="img/junction/deluxe-room.jpg" width="800" height="468" class="img-responsive" alt="">
+                                <div class="short_info_grid">
+																		<small><strong>From Kes 5,500</strong></small>
+                                    <h3>Deluxe Rooms</h3>
+                                    <em>Free Breakfast</em>
+                                    <p>
+                                        Read more
+                                    </p>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <!-- End img_wrapper_grid -->
+                </div>
+            </div>
+            <!-- End row -->
+        <div class="text-center">
+            <a href="homes-grid.html" class="button_2">See more rooms</a>
+        </div>
+        </div>
+        <!-- End container -->
+    </div>
+    <!-- End pattern dots -->
+<section>
+    <div class="container margin_60_30 fix_mobile">
+        <div class="main_title">
+            <h2><strong>Our</strong> image gallery</h2>
+            <span><em></em></span>
+        </div>
+        <div>
+          <main>
+
+    <div id="carousel">
+
+       <div class="hideLeft">
+        <img src="img/junction/image-01.jpg">
+      </div>
+
+      <div class="prevLeftSecond">
+        <img src="img/junction/image-02.jpg">
+      </div>
+
+      <div class="prev">
+        <img src="img/junction/image-03.jpg">
+      </div>
+
+      <div class="selected">
+        <img src="img/junction/image-04.jpg">
+      </div>
+
+      <div class="next">
+        <img src="img/junction/image-05.jpg">
+      </div>
+
+      <div class="nextRightSecond">
+        <img src="img/junction/image-06.jpg">
+      </div>
+
+      <div class="hideRight">
+        <img src="img/junction/image-04.jpg">
+      </div>
+
+    </div>
+<center>
+    <div class="buttons">
+      <button id="prev">Prev</button>
+      <button id="next">Next</button>
+    </div>
+</center>
+  </main>
+        </div>
+
+    </div>
+
+</section>
+
+    <!-- End container -->
+
+    <!-- <div id="map_home">
+    </div> -->
+    <!-- End map_home -->
+
+    <div class="pattern_dots">
+        <div class="container margin_60_45">
+            <div class="main_title">
+                <h2><strong>CONTACT US</strong></h2>
+                <h5>
+                    WE VALUE YOUR INQUIRY
+                </h5>
+                <span><em></em></span>
+            </div>
+            <!-- End main_title -->
+
+
+
+            <!-- End row -->
+
+        </div>
+        <!-- End container -->
+    </div>
+    <!-- End pattern dots -->
+    <!-- Footer ================================================== -->
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 col-sm-4">
+                    <h3>About us</h3>
+                    <p>At Junction we believe that responsible travel can be a force for good. As a company, the only thing we want to do more than explore the world is protect it for future generations of travellers</p>
+                    <p><img src="img/junction/logo-meta.png" alt="img" class="hidden-xs" width="60" height="70" data-retina="true">
+                    </p>
+                </div>
+                <div class="col-md-4 col-sm-4">
+                    <h3>About</h3>
+                    <ul>
+                        <li><a href="#0">About us</a>
+                        </li>
+                        <!-- <li><a href="#0">Faq</a>
+                        </li> -->
+                        <li><a href="#0">Contacts</a>
+                        </li>
+                        <!-- <li><a href="#0">Login</a>
+                        </li>
+                        <li><a href="#0">Register</a>
+                        </li> -->
+                        <li><a href="#0">Terms and conditions</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-md-3 col-sm-4" id="newsletter">
+                    <h3>Newsletter</h3>
+                    <p>
+                        Join our newsletter to be informed about offers and notifications.
+                    </p>
+                    <div id="message-newsletter_2">
+                    </div>
+                    <form method="post" action="assets/newsletter.php" name="newsletter_2" id="newsletter_2">
+                        <div class="form-group">
+                            <input name="email_newsletter_2" id="email_newsletter_2" type="email" value="" placeholder="Your e-mail" class="form-control">
+                        </div>
+                        <p>
+                            <input type="submit" value="Subscribe" class="button" id="submit-newsletter_2">
+                        </p>
+                    </form>
+                </div>
+                <!-- <div class="col-md-2 col-sm-4">
+                    <h3>Settings</h3>
+                    <div class="styled-select">
+                        <select class="form-control" name="lang" id="lang">
+                            <option value="English" selected>English</option>
+                            <option value="French">French</option>
+                            <option value="Spanish">Spanish</option>
+                            <option value="Russian">Russian</option>
+                        </select>
+                    </div>
+                </div> -->
+            </div>
+            <!-- End row -->
+            <hr>
+            <div class="row">
+                <div class="col-sm-6">
+                    © The Junction 2019 - All Rights Reserved
+                </div>
+                <div class="col-sm-6">
+                    <div id="social_footer">
+                        <ul>
+                            <li><a href="#0"><i class="icon-facebook"></i></a>
+                            </li>
+                            <li><a href="#0"><i class="icon-twitter"></i></a>
+                            </li>
+                            <li><a href="#0"><i class="icon-google"></i></a>
+                            </li>
+                            <li><a href="#0"><i class="icon-instagram"></i></a>
+                            </li>
+                            <li><a href="#0"><i class="icon-pinterest"></i></a>
+                            </li>
+                        </ul>
+
+                    </div>
+                </div>
+            </div>
+            <!-- End row -->
+        </div>
+        <!-- End container -->
+    </footer>
+    <!-- End Footer =============================================== -->
+
+    <!-- COMMON SCRIPTS -->
+    <script src="js/jquery-2.2.4.min.js"></script>
+    <script src="js/common_scripts_min.js"></script>
+    <script src="assets/validate.js"></script>
+    <script src="js/functions.js"></script>
+
+    <!-- SPECIFIC SCRIPTS -->
+    <script src="js/morphext.min.js"></script>
+    <script>
+        'use strict';
+        $("#js-rotating").Morphext({
+            animation: "fadeIn", // Overrides default "bounceIn"
+            separator: ",", // Overrides default ","
+            speed: 2300, // Overrides default 2000
+            complete: function () {
+                // Overrides default empty function
+            }
+        });
+        // Tabs
+        new CBPFWTabs(document.getElementById('tabs'));
+    </script>
+
+		<!--STICKY SEARCH BAR-->
+		<script>
+			$(document).ready(function() {
+					$(window).scroll(function() {
+							var distanceFromTop = $(document).scrollTop();
+							if (distanceFromTop >= $('#sub_content_in').height())
+							{
+									$('#search_bar, #mobile_search').addClass('fixed');
+							}
+							else
+							{
+									$('#search_bar, #mobile_search').removeClass('fixed');
+							}
+					});
+			});
+		</script>
+
+    <script src="js/jssor.slider-27.5.0.min.js" type="text/javascript"></script>
+    <script type="text/javascript">
+        jssor_1_slider_init = function() {
+
+            var jssor_1_SlideshowTransitions = [
+              {$Duration:500,$Delay:12,$Cols:10,$Rows:5,$Opacity:2,$Clip:15,$SlideOut:true,$Formation:$JssorSlideshowFormations$.$FormationStraightStairs,$Assembly:2049,$Easing:$Jease$.$OutQuad},
+              {$Duration:500,$Delay:40,$Cols:10,$Rows:5,$Opacity:2,$Clip:15,$SlideOut:true,$Easing:$Jease$.$OutQuad},
+              {$Duration:1000,x:-0.2,$Delay:20,$Cols:16,$SlideOut:true,$Formation:$JssorSlideshowFormations$.$FormationStraight,$Assembly:260,$Easing:{$Left:$Jease$.$InOutExpo,$Opacity:$Jease$.$InOutQuad},$Opacity:2,$Outside:true,$Round:{$Top:0.5}},
+              {$Duration:1600,y:-1,$Delay:40,$Cols:24,$SlideOut:true,$Formation:$JssorSlideshowFormations$.$FormationStraight,$Easing:$Jease$.$OutJump,$Round:{$Top:1.5}},
+              {$Duration:1200,x:0.2,y:-0.1,$Delay:16,$Cols:10,$Rows:5,$Opacity:2,$Clip:15,$During:{$Left:[0.3,0.7],$Top:[0.3,0.7]},$Formation:$JssorSlideshowFormations$.$FormationStraightStairs,$Assembly:260,$Easing:{$Left:$Jease$.$InWave,$Top:$Jease$.$InWave,$Clip:$Jease$.$OutQuad},$Round:{$Left:1.3,$Top:2.5}},
+              {$Duration:1500,x:0.3,y:-0.3,$Delay:20,$Cols:10,$Rows:5,$Opacity:2,$Clip:15,$During:{$Left:[0.2,0.8],$Top:[0.2,0.8]},$Formation:$JssorSlideshowFormations$.$FormationStraightStairs,$Assembly:260,$Easing:{$Left:$Jease$.$InJump,$Top:$Jease$.$InJump,$Clip:$Jease$.$OutQuad},$Round:{$Left:0.8,$Top:2.5}},
+              {$Duration:1500,x:0.3,y:-0.3,$Delay:20,$Cols:10,$Rows:5,$Opacity:2,$Clip:15,$During:{$Left:[0.1,0.9],$Top:[0.1,0.9]},$SlideOut:true,$Formation:$JssorSlideshowFormations$.$FormationStraightStairs,$Assembly:260,$Easing:{$Left:$Jease$.$InJump,$Top:$Jease$.$InJump,$Clip:$Jease$.$OutQuad},$Round:{$Left:0.8,$Top:2.5}}
+            ];
+
+            var jssor_1_options = {
+              $AutoPlay: 1,
+              $SlideshowOptions: {
+                $Class: $JssorSlideshowRunner$,
+                $Transitions: jssor_1_SlideshowTransitions,
+                $TransitionsOrder: 1
+              },
+              $ArrowNavigatorOptions: {
+                $Class: $JssorArrowNavigator$
+              },
+              $BulletNavigatorOptions: {
+                $Class: $JssorBulletNavigator$
+              }
+            };
+
+            var jssor_1_slider = new $JssorSlider$("jssor_1", jssor_1_options);
+
+            /*#region responsive code begin*/
+
+            var MAX_WIDTH = 980;
+
+            function ScaleSlider() {
+                var containerElement = jssor_1_slider.$Elmt.parentNode;
+                var containerWidth = containerElement.clientWidth;
+
+                if (containerWidth) {
+
+                    var expectedWidth = Math.min(MAX_WIDTH || containerWidth, containerWidth);
+
+                    jssor_1_slider.$ScaleWidth(expectedWidth);
+                }
+                else {
+                    window.setTimeout(ScaleSlider, 30);
+                }
+            }
+
+            ScaleSlider();
+
+            $Jssor$.$AddEvent(window, "load", ScaleSlider);
+            $Jssor$.$AddEvent(window, "resize", ScaleSlider);
+            $Jssor$.$AddEvent(window, "orientationchange", ScaleSlider);
+            /*#endregion responsive code end*/
+        };
+    </script>
+    <script type="text/javascript">jssor_1_slider_init();</script>
+    <script src="http://maps.googleapis.com/maps/api/js"></script>
+    <script src="js/map_home.js"></script>
+    <script src="js/infobox.js"></script>
+		<!-- Datepicker-->
+    <script src="js/bootstrap-datepicker.js"></script>
+    <script src="js/datepicker_func.js"></script>
+    <script src="js/scripts.js"></script>
+
+</body>
+
+</html>
